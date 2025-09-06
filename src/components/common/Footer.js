@@ -8,3 +8,4 @@ export default function Footer() {
     </footer>
   );
 }
+src/components/common/Footer.js

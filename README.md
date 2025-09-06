@@ -85,6 +85,46 @@ The app will run at [http://localhost:3000](http://localhost:3000).
 
 ---
 
+## 🌐 Deploy & Host on GitHub Pages
+
+You can easily host this project on GitHub Pages and share your website:
+
+### Step-by-step Deployment
+
+1. **Install GitHub Pages package:**
+   ```bash
+   npm install gh-pages --save-dev
+   ```
+
+2. **Update `package.json`:**
+   - Add a `homepage` field:
+     ```json
+     "homepage": "https://<your-github-username>.github.io/<your-repo-name>"
+     ```
+   - Add deploy scripts:
+     ```json
+     "scripts": {
+       "predeploy": "npm run build",
+       "deploy": "gh-pages -d build"
+     }
+     ```
+
+3. **Deploy your app:**
+   ```bash
+   npm run deploy
+   ```
+
+4. **Enable GitHub Pages:**
+   - Go to your repository on GitHub.
+   - Click **Settings** > **Pages**.
+   - Set the source branch to `gh-pages`.
+
+### 👉 [Click here to open the website](https://<your-github-username>.github.io/<your-repo-name>)
+
+> Replace `<your-github-username>` and `<your-repo-name>` with your actual GitHub username and repository name.
+
+---
+
 ## 📄 License
 
 This project is licensed under the MIT License.
