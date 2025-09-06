@@ -1,0 +1,42 @@
+.table-container {
+  padding: 10px;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+.table-container h1 {
+  color: #1e88e5;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.shared-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.shared-table thead {
+  background: #1e88e5;
+  color: #fff;
+}
+
+.shared-table th,
+.shared-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.shared-table tbody tr:hover {
+  background-color: #f1f7ff;
+  cursor: pointer;
+}
+
+.shared-table tbody tr:nth-child(even) {
+  background-color: #fafafa;
+}
