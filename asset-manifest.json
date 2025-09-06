@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/school-management/static/css/main.4a420e44.css",
+    "main.js": "/school-management/static/js/main.30c5f7f4.js",
+    "index.html": "/school-management/index.html",
+    "main.4a420e44.css.map": "/school-management/static/css/main.4a420e44.css.map",
+    "main.30c5f7f4.js.map": "/school-management/static/js/main.30c5f7f4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4a420e44.css",
+    "static/js/main.30c5f7f4.js"
+  ]
+}
